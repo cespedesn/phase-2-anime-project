@@ -1,22 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
-import NavBar from './NavBar'
-import SearchBar from './SearchBar'
 import AnimeList from './AnimeList'
 
 
 function AnimePage() {
+  const [animeList, setAnimeList] = useState([]);
+  //const [searchTerm, setSearchTerm] = useState('')
+
+ 
+
   return (
    <div> 
-     <Header />
-     <SearchBar />
-     <NavBar />
-     <AnimeList />
+     <Header animeList={animeList} setAnimeList={setAnimeList}/>
+     <AnimeList animeList={animeList} />
+
    </div>
 
   )
 }
 
-export default AnimePage
-
-
+export default AnimePage;

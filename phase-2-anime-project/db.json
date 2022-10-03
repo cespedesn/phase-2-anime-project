@@ -1,0 +1,12 @@
+{ 
+    "animes": [
+    {
+        "id": 1,
+        "title": "Dandadan",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.yVMu1swHJ5h7c_D3u_-gTQHaHa&pid=Api",
+        "bookmark": "75",
+        "anime": false,
+        "manga": true
+    }
+   ]
+}
