@@ -3,7 +3,9 @@ import SearchBar from './SearchBar'
 
  function Header() {
   return (
-    <div>Header</div>
+    <div>
+      <header>Header</header>
+    </div>
   )
 }
 

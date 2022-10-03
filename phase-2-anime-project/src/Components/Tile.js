@@ -1,8 +1,7 @@
 import React from 'react'
 
+ function Tile({anime}) {
 
-
- function Tile() {
   return (
     <div>
      "Tile"
@@ -10,4 +9,4 @@ import React from 'react'
   )
 }
 
-export default Tile
+export default Tile;
