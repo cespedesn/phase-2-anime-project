@@ -1,17 +1,18 @@
 import React from 'react'
-import Tile from './Tile'
+import AnimeTile from './AnimeTile'
+
  function AnimeList({ animeList }) {
-    const animes = animeList.map((anime) => {
+    const topAnimes = animeList.map((anime) => {
       return (
-            <Tile
-              key={anime.id}
+            <AnimeTile
+              key={anime.mal_id}
               anime={anime}
               />
-      )
+        )
     } )
   return (
     <div>
-    {animes}
+    {topAnimes}
     </div>
   )
 }

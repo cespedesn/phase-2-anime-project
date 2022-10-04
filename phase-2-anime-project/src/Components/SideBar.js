@@ -2,7 +2,12 @@ import React from 'react'
 
 function SideBar() {
   return (
-    <div>SideBar</div>
+    <span className='sidebar-parent'>
+      <span className='sidebar-child'>
+        SideBar
+      </span>
+
+    </span>
   )
 }
 
