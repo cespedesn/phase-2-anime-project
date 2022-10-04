@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SearchBar from './SearchBar'
+
 import Form from './Form'
  function Header({ animeList, setAnimeList }) {
   const [hideForm, setHideFrom] = useState(false);
@@ -7,7 +7,7 @@ import Form from './Form'
     setHideFrom(hideFrom => !hideForm);
   }
   return (
-    <div>
+    <div className='header'>
       <header>
       <button className = "show-btn" onClick={handleHide}>Show Manga/ Anime Form</button>
         {hideForm ?
@@ -16,7 +16,6 @@ import Form from './Form'
         setAnimeList={setAnimeList}
         hideForm={hideForm}
         /> : null}
-      <SearchBar />
       </header>
     </div>
   )

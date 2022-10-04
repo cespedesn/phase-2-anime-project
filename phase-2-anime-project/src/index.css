@@ -23,6 +23,10 @@ code {
   
 }
 
+.header {
+  border-bottom: solid 5px;
+}
+
 .form {
   margin-top: 15px;
   margin-left: 15px;
@@ -31,6 +35,21 @@ code {
 .show-btn {
   margin-top: 15px;
   margin-left: 15px;
+}
+
+.sidebar-parent {
+  display: inline-flex;
+  height: 100%;
+  width: 20%;
+  border: solid 5px;
+  
+
+}
+
+.sidebar-child {
+  display: inline-block;
+  width: 100%;
+  border: dotted 5px;
 }
 
 .searchbar {
