@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #2c5364, #203a43);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  
+}
+
+.form {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.show-btn {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.searchbar {
+  float: right;
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 0%;
+  
+  /* transition: 1s; */
+}
+
+.label {
+
 }
