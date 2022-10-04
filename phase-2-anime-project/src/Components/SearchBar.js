@@ -1,19 +1,13 @@
 import React from 'react'
-
-function SearchBar({searchTerm, setSearchTerm}) {
-  function handleInputChange (e) {
-    setSearchTerm(e.target.value);
-  }
+function SearchBar() {
   return (
     <div>
       <input
-        className='anime-search'
+      className='searchbar'
         type="text"
-        value={searchTerm}
-        onChange={handleInputChange}
+        placeholder="Search"
       />
     </div>
   )
-}
-
+  }
 export default SearchBar

@@ -1,7 +1,5 @@
 import React from "react";
-import AnimePage from "./AnimePage"; 
-
-
+import AnimePage from "./AnimePage";
 function App() {
   return (
     <div className="App">
@@ -9,5 +7,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

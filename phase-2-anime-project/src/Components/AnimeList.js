@@ -1,21 +1,18 @@
 import React from 'react'
 import Tile from './Tile'
-
- function AnimeList({anime}) {
-   const animeTile = anime.map((anime) => (
-    <Tile
-        key={anime.mal_id}
-        anime={anime}
-    /> 
-   ));
-    
+ function AnimeList({ animeList }) {
+    const animes = animeList.map((anime) => {
+      return (
+            <Tile
+              key={anime.id}
+              anime={anime}
+              />
+      )
+    } )
   return (
     <div>
-      {animeTile}
+    {animes}
     </div>
   )
 }
-
 export default AnimeList
-
-
